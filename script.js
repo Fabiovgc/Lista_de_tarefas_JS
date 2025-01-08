@@ -1,3 +1,4 @@
+const meuBotao = document.getElementById('addButton');
 const input = document.getElementById('taskInput');
 const ul = document.getElementById('taskList');
 
@@ -29,3 +30,5 @@ function addTask(){
         alert('Insira uma tarefa!')
     }
 }
+
+meuBotao.addEventListener("click", addTask);
