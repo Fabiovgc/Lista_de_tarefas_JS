@@ -1,21 +1,42 @@
 body{    
     height: 100%;
-    width: 100%;
-    margin:20px;
+    margin:20px 200px;
     padding:0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    background-image: url('./img/stars-and-planets-in-outer-space-vector.jpg');
+    background-size: cover;
+    /* background-position: center; */
 }
 
 #container{
     margin:auto;
     padding:0;
     max-width: 800px;
-    height: 150px;
+    min-height: 150px;
     border:2px inset #7303ced2;
     border-radius: 5px;
     cursor:crosshair;
     background:linear-gradient(#edd6ffd2, #ce99fad2) ;
+    padding: 20px;
+}
+
+#listDiv{
+    background-color: #c186f1d2;
+    height: auto;
+    width: auto;
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-left:15px;
+    border-radius: 15px;
+}
+
+hr{
+    background-color:#000;
+    height: 1px;
+}
+
+h1{
+    color:#7303ced2;
 }
 
 ul{
@@ -30,7 +51,7 @@ button{
     height: 40px;
     border-radius: 100px;
     border:2px solid #000;
-    
+    margin-left: 10px;
 }
 
 button:hover{
